@@ -1,0 +1,634 @@
+fileFormatVersion: 2
+guid: e5d0df70dcb4e164f9050f6372b4f04b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4473039692937868300
+    second: ForeGround_Asset_0
+  - first:
+      213: 3585502053719739977
+    second: ForeGround_Asset_1
+  - first:
+      213: 2598048402187792497
+    second: ForeGround_Asset_2
+  - first:
+      213: -1291907249504433171
+    second: ForeGround_Asset_3
+  - first:
+      213: -8227490760791823530
+    second: ForeGround_Asset_4
+  - first:
+      213: -3657772855701849824
+    second: ForeGround_Asset_5
+  - first:
+      213: -7312803571098308004
+    second: ForeGround_Asset_6
+  - first:
+      213: -406148820583279966
+    second: ForeGround_Asset_7
+  - first:
+      213: -4327895440204755995
+    second: ForeGround_Asset_8
+  - first:
+      213: 208356916032360972
+    second: ForeGround_Asset_9
+  - first:
+      213: 9179123913755023820
+    second: ForeGround_Asset_10
+  - first:
+      213: -6908005938063926172
+    second: ForeGround_Asset_11
+  - first:
+      213: -1592378571135485268
+    second: ForeGround_Asset_12
+  - first:
+      213: 5169684401193199431
+    second: ForeGround_Asset_13
+  - first:
+      213: -592108030604605537
+    second: ForeGround_Asset_14
+  - first:
+      213: 4167030252625368217
+    second: ForeGround_Asset_15
+  - first:
+      213: 2411144942454364083
+    second: ForeGround_Asset_16
+  - first:
+      213: -5706914979446112943
+    second: ForeGround_Asset_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spike1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 844
+        width: 218
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04b8cbc6ed631e30800000000000000
+      internalID: 4473039692937868300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike2
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 855
+        width: 154
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e066dfe1342c130800000000000000
+      internalID: 3585502053719739977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 853
+        width: 128
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170bca9b14f1e0420800000000000000
+      internalID: 2598048402187792497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike4
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 846
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb498e8339321ee0800000000000000
+      internalID: -1291907249504433171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 422
+        width: 425
+        height: 409
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65be1328eb412dd80800000000000000
+      internalID: -8227490760791823530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 325
+        width: 211
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02933daa7fafc3dc0800000000000000
+      internalID: -3657772855701849824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin5
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 360
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c523a70a5e3b38a90800000000000000
+      internalID: -7312803571098308004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin1
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 366
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2903facc11d5af0800000000000000
+      internalID: -406148820583279966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 370
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb009df60a30f3c0800000000000000
+      internalID: -4327895440204755995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin3
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 368
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02da9ed28b34e200800000000000000
+      internalID: 208356916032360972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin4
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 370
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc959a4019cc26f70800000000000000
+      internalID: 9179123913755023820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinStack1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 328
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c19631335d120a0800000000000000
+      internalID: -6908005938063926172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock3
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 209
+        width: 200
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa7687502cb6e9e0800000000000000
+      internalID: -1592378571135485268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CoinStack2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 108
+        width: 94
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747affd92986eb740800000000000000
+      internalID: 5169684401193199431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock4
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 211
+        width: 229
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97082f12e868c7f0800000000000000
+      internalID: -592108030604605537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 99
+        width: 195
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9949a08dfe344d930800000000000000
+      internalID: 4167030252625368217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock5
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 72
+        width: 259
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7d8f4ec8b167120800000000000000
+      internalID: 2411144942454364083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock2
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 76
+        width: 224
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d32ce0017fcc0b0800000000000000
+      internalID: -5706914979446112943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock1
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 73
+        width: 376
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81d7b73a9e2002478daec94b698cdf8
+      internalID: 1791573109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fa2f2a24ba3ac8846bdfc82d9718211a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Coin1: -406148820583279966
+      Coin2: -4327895440204755995
+      Coin3: 208356916032360972
+      Coin4: 9179123913755023820
+      Coin5: -7312803571098308004
+      CoinStack1: -6908005938063926172
+      CoinStack2: 5169684401193199431
+      Rock1: 1791573109
+      Rock2: -5706914979446112943
+      Rock3: -1592378571135485268
+      Rock4: -592108030604605537
+      Rock5: 2411144942454364083
+      Spike1: 4473039692937868300
+      Spike2: 3585502053719739977
+      Spike3: 2598048402187792497
+      Spike4: -1291907249504433171
+      Spike5: -3657772855701849824
+      Spike6: 4167030252625368217
+      Tree: -8227490760791823530
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

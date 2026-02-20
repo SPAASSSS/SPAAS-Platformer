@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 11509e968dc2eef43a0a31353cd91259
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4061387222346549184
+    second: Chicken_Sprite_0
+  - first:
+      213: 1525005894011365533
+    second: Chicken_Sprite_1
+  - first:
+      213: 1919276189956044714
+    second: Chicken_Sprite_2
+  - first:
+      213: 8428337142311069412
+    second: Chicken_Sprite_3
+  - first:
+      213: -5992375226582637095
+    second: Chicken_Sprite_4
+  - first:
+      213: -2146701027687642879
+    second: Chicken_Sprite_5
+  - first:
+      213: -6879431498796676555
+    second: Chicken_Sprite_6
+  - first:
+      213: -6445874533741590532
+    second: Chicken_Sprite_7
+  - first:
+      213: 6924004038426339891
+    second: Chicken_Sprite_8
+  - first:
+      213: 4007765337060837212
+    second: Chicken_Sprite_9
+  - first:
+      213: -122135648957215749
+    second: Chicken_Sprite_10
+  - first:
+      213: -986211679789381569
+    second: Chicken_Sprite_11
+  - first:
+      213: -9127454490341349162
+    second: Chicken_Sprite_12
+  - first:
+      213: -8995624359320111655
+    second: Chicken_Sprite_13
+  - first:
+      213: 2378530010866239714
+    second: Chicken_Sprite_14
+  - first:
+      213: 4871250889735549273
+    second: Chicken_Sprite_15
+  - first:
+      213: 8846556695261035494
+    second: Chicken_Sprite_16
+  - first:
+      213: 4516424602540472308
+    second: Chicken_Sprite_17
+  - first:
+      213: -7213972293786954523
+    second: Chicken_Sprite_18
+  - first:
+      213: -2828787283998910052
+    second: Chicken_Sprite_19
+  - first:
+      213: -2473176216683709571
+    second: Chicken_Sprite_20
+  - first:
+      213: -1093600304807165771
+    second: Chicken_Sprite_21
+  - first:
+      213: -1697228535196911344
+    second: Chicken_Sprite_22
+  - first:
+      213: -779705282856575101
+    second: Chicken_Sprite_23
+  - first:
+      213: -2510994118739204181
+    second: Chicken_Sprite_24
+  - first:
+      213: 9005212401842329419
+    second: Chicken_Sprite_25
+  - first:
+      213: -121577659746290257
+    second: Chicken_Sprite_26
+  - first:
+      213: 2940061772623774429
+    second: Chicken_Sprite_27
+  - first:
+      213: 6919141401449113734
+    second: Chicken_Sprite_28
+  - first:
+      213: -1277918437369214420
+    second: Chicken_Sprite_29
+  - first:
+      213: 5216889753571750158
+    second: Chicken_Sprite_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chicken_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04839b4e6dd03a7c0800000000000000
+      internalID: -4061387222346549184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 512
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98ace0e7c8e92510800000000000000
+      internalID: 1525005894011365533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 512
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7f138a683a2aa10800000000000000
+      internalID: 1919276189956044714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 512
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6aea6c9f777f470800000000000000
+      internalID: 8428337142311069412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 512
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5e0bafa7ec6dca0800000000000000
+      internalID: -5992375226582637095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10946bdf9c26532e0800000000000000
+      internalID: -2146701027687642879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a479920895780a0800000000000000
+      internalID: -6879431498796676555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 0
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf788956347ab86a0800000000000000
+      internalID: -6445874533741590532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 0
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33aa5cdecf0071060800000000000000
+      internalID: 6924004038426339891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chicken_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 0
+        width: 307
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5782aa07517e9730800000000000000
+      internalID: 4007765337060837212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b1fb168648ae3564a88eb50ed11d8d64
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":2.0},"gridSpriteSize":{"x":307.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Chicken_Sprite_0: -4061387222346549184
+      Chicken_Sprite_1: 1525005894011365533
+      Chicken_Sprite_2: 1919276189956044714
+      Chicken_Sprite_3: 8428337142311069412
+      Chicken_Sprite_4: -5992375226582637095
+      Chicken_Sprite_5: -2146701027687642879
+      Chicken_Sprite_6: -6879431498796676555
+      Chicken_Sprite_7: -6445874533741590532
+      Chicken_Sprite_8: 6924004038426339891
+      Chicken_Sprite_9: 4007765337060837212
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 4065613183
+    locked: 0
+  - name: Cloud
+    uniqueID: 987937569
+    locked: 0
+  - name: Mountain
+    uniqueID: 2900724075
+    locked: 0
+  - name: Forest
+    uniqueID: 2547258701
+    locked: 0
+  - name: Spike
+    uniqueID: 3128714157
+    locked: 0
+  - name: Tile
+    uniqueID: 2423615651
+    locked: 0
+  - name: FG
+    uniqueID: 2237016013
+    locked: 0
+  - name: Player
+    uniqueID: 2585677651
+    locked: 0
+  m_RenderingLayers:
+  - Default
