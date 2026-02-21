@@ -28,17 +28,35 @@ public class PlayerHealth : MonoBehaviour
 
     public event Action<int> OnHealthChanged;
 
+    private void Start()
+    {
+        RefreshCameraShake();
+    }
+
     private void Awake()
     {
-        currentHP = maxHP;
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.RegisterMaxHP(maxHP);
+            currentHP = GameManager.Instance.LoadPlayerHP(maxHP);
+        }
+        else
+        {
+            currentHP = maxHP;
+        }
 
         if (!sprite) sprite = GetComponentInChildren<SpriteRenderer>();
         if (sprite) originalColor = sprite.color;
 
-        if (!cameraShake && Camera.main != null)
-            cameraShake = Camera.main.GetComponent<CameraShake>();
+        RefreshCameraShake();
 
         OnHealthChanged?.Invoke(currentHP);
+    }
+
+    private void RefreshCameraShake()
+    {
+        if (Camera.main != null)
+            cameraShake = Camera.main.GetComponent<CameraShake>();
     }
 
     private void Update()
@@ -51,8 +69,11 @@ public class PlayerHealth : MonoBehaviour
     {
         if (invincibleTimer > 0f) return;
 
-        currentHP -= dmg;
+        currentHP = Mathf.Max(0, currentHP - dmg);
         invincibleTimer = invincibleTime;
+
+        if (GameManager.Instance != null)
+            GameManager.Instance.SavePlayerHP(currentHP);
 
         OnHealthChanged?.Invoke(currentHP);
 
@@ -109,10 +130,30 @@ public class PlayerHealth : MonoBehaviour
         TakeDamage(maxHP);
     }
 
+    public void Revive()
+    {
+        currentHP = maxHP;
+
+        invincibleTimer = invincibleTime;
+
+        isDying = false;
+
+        if (sprite) sprite.color = originalColor;
+
+        var move = GetComponent<PlayerMovement>();
+        if (move != null) move.enabled = true;
+
+        if (GameManager.Instance != null)
+            GameManager.Instance.SavePlayerHP(currentHP);
+
+        OnHealthChanged?.Invoke(currentHP);
+        Debug.Log("Respawned with full HP");
+
+    }
+
     private IEnumerator DieRoutine()
     {
         yield return new WaitForSeconds(deathDelay);
-
-        gameObject.SetActive(false);
+        GameManager.Instance.RespawnToGlobalCheckpoint();
     }
 }

@@ -22,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Transform graphics;
 
+    public Animator animator;
+
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private float coyoteCounter;
@@ -31,6 +33,9 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
+
+        if (!animator && graphics != null)
+            animator = graphics.GetComponent<Animator>();
     }
 
     private void OnEnable()
@@ -49,7 +54,8 @@ public class PlayerMovement : MonoBehaviour
     {
         moveInput = moveAction != null ? moveAction.action.ReadValue<Vector2>() : Vector2.zero;
 
-        bool grounded = Physics2D.OverlapBox(groundCheck.position, groundCheckSize, 0f, groundLayer);
+        bool grounded = Physics2D.OverlapBox(groundCheck.position, groundCheckSize, 0f, groundLayer) != null;
+
         coyoteCounter = grounded ? coyoteTime : coyoteCounter - Time.deltaTime;
 
         if (jumpBufferCounter > 0f) jumpBufferCounter -= Time.deltaTime;
@@ -68,11 +74,17 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
 
         float moveX = moveInput.x;
-
         if (moveX > 0.01f)
             graphics.localScale = new Vector3(1, 1, 1);
         else if (moveX < -0.01f)
             graphics.localScale = new Vector3(-1, 1, 1);
+
+        if (animator != null)
+        {
+            animator.SetFloat("Speed", Mathf.Abs(moveInput.x));
+            animator.SetBool("IsGrounded", grounded);
+            animator.SetFloat("YVel", rb.linearVelocity.y);
+        }
     }
 
     private void FixedUpdate()

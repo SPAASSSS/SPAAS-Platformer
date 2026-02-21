@@ -6,7 +6,7 @@ public class HealthUI : MonoBehaviour
     public PlayerHealth playerHealth;
     public Image[] hearts;
 
-    private void Start()
+    private void OnEnable()
     {
         if (!playerHealth)
             playerHealth = FindFirstObjectByType<PlayerHealth>();
@@ -18,7 +18,7 @@ public class HealthUI : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
+    private void OnDisable()
     {
         if (playerHealth)
             playerHealth.OnHealthChanged -= UpdateHearts;
